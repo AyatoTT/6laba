@@ -1,0 +1,142 @@
+html{ overflow-x:hidden; }
+
+body{
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');;
+    height: 400px;
+}
+header{
+    margin: 0%;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 88px;
+    background:black;
+    width: 100%;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    position: absolute;
+    width: 370px;
+    height: 18px;
+    left: 550px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 46px;
+    padding-bottom: 40px;
+}
+.menu>li{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    
+}
+.menu>li>a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.logo{
+
+position:absolute;
+width: 74px;
+height: 74px;
+left: 167px;
+top: 10px;
+color: white;
+}
+img {
+	height: 200px;
+	max-width: 100%;
+}
+.content{
+	margin-top: 50px;
+}
+.product {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #c0c0c0;
+	height: 390px;
+	overflow: hidden;
+	padding: 25px 15px;
+	position: relative;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.product:hover {
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.product-img {
+	height: 50px;
+}
+.product-img>a>img{
+    pointer-events: none;
+}
+.product-title a {
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.product-desc {
+	max-height: 60px;
+	overflow: hidden;
+}
+.product-price {
+	bottom: 15px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	color: #d51e08;
+	font-size: 18px;
+	font-weight: 500;
+}
+.product-title{
+    margin-top: 155px;
+
+}
+footer{
+    position: relative;
+    height: 30px;
+    left: 0px;
+    top: 93%;
+    right: 0px;
+    bottom:0px;
+    align-items: bottom;
+    padding: 44px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top:0px ;
+}
+footer>div{
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    /* Light / Black */
+    background: black;
+    }
